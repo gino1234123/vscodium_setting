@@ -1,0 +1,19 @@
+{
+  "workbench.colorTheme": "Catppuccin Latte",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "catppuccin-latte",
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  "chatgpt.localeOverride": "zh-TW",
+  "chatgpt.reviewDelivery": "inline",
+  "syncSettings.hooks.postUpload": "",
+  "syncSettings.resources": [
+    "extensions",
+    "keybindings",
+    "settings",
+    "snippets",
+    "uiState",
+  ],
+  "syncSettings.hooks.preUpload": "",
+}

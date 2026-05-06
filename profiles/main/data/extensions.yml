@@ -1,0 +1,22 @@
+disabled: []
+enabled:
+  - id: Catppuccin.catppuccin-vsc
+    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
+  - id: Catppuccin.catppuccin-vsc-icons
+    uuid: 625b9abd-dfac-405b-bf34-e65f46e2f22f
+  - id: christian-kohler.path-intellisense
+    uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: formulahendry.auto-close-tag
+    uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
+  - id: formulahendry.auto-rename-tag
+    uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
+  - id: MS-CEINTL.vscode-language-pack-zh-hant
+    uuid: 64d05954-748a-433f-ba3e-edba0227e28e
+  - id: openai.chatgpt
+    uuid: 90b52117-6fd1-4f1c-9e14-256bd6e21d79
+  - id: streetsidesoftware.code-spell-checker
+    uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
