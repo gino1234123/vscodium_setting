@@ -14,6 +14,8 @@ enabled:
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
   - id: MS-CEINTL.vscode-language-pack-zh-hant
     uuid: 64d05954-748a-433f-ba3e-edba0227e28e
+  - id: myriad-dreamin.tinymist
+    uuid: e15002cc-f2ff-4c29-b86a-7504683a0369
   - id: openai.chatgpt
     uuid: 90b52117-6fd1-4f1c-9e14-256bd6e21d79
   - id: streetsidesoftware.code-spell-checker
