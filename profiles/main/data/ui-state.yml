@@ -1,12 +1,4 @@
-openai.chatgpt: '{"viewed2025-09-15-nux":true,"viewed2025-09-15-full-chatgpt-auth-nux":true,"persisted-atom-state":{"environment":null,"agent-mode-by-host-id":{"local":"auto"},"seen-model-upgrade-list":["gpt-5.5","gpt-5.4"],"composer-auto-context-enabled":true,"prompt-history":["昨天我用了這幾個檔案[custom.css](user/themes/deliver/css/custom.css)
-  [blog_item.html.twig](user/themes/deliver/templates/partials/blog_item.html.twig)
-  [blog.html.twig](user/themes/deliver/templates/blog.html.twig)
-  嘗試在blog的頁面中做出一格一格的顯示產品子頁面，但是怎麼調整都無法讓圖片不被截掉，請你幫我搜尋檔案找出問題，並告訴我如何達成上述的目標","我使用的是grav製作這些檔案的，那個item內部的markdown圖片應該跟這個問題沒有關係，我想要的的確就是item頁面的page
-  media","昨天使用了另一台電腦的codex創建了 scripts/
-  下的自動匯入商品的腳本，但我更改了資料夾和檔案的結構，請幫我檢查並調整腳本成符合現在資料夾檔案結構且可以運作的樣子。\n請盡可能的使用最簡化的作法。","可以直接幫我進行測試","上次製作腳本時給我使用的教學在另一台電腦的chat裡面，請給我如何使用的方式","請將這個教學生成為一個檔案，放在scripts資料夾裡","[同洵網站產品清單.csv](同洵網站產品清單.csv)
-  有任何辦法自動從網路收集圖片，根據product那一欄的產品名稱嗎","請先再次讀取csv檔，確認中文沒有亂碼的話，就請幫我直接照你的建議生成腳本","注意：
-  Custom Search JSON API 不再開放新客戶使用，Vertex AI Search 是搜尋最多 50
-  個網域的理想替代方案。或者，如果您的用途需要完整網頁搜尋功能，請與我們聯絡，表達您有意採用完整網頁搜尋解決方案，並取得更多相關資訊。","可以刪掉google的選項沒關係，另外請教我如何使用你說的tavily","我跑到一半，products_image裡面只有一堆空的資料夾，這樣對嗎","那請幫我測試看看下載三個圖片","Invoke-RestMethod
+openai.chatgpt: '{"viewed2025-09-15-nux":true,"viewed2025-09-15-full-chatgpt-auth-nux":true,"persisted-atom-state":{"environment":null,"agent-mode-by-host-id":{"local":"guardian-approvals"},"seen-model-upgrade-list":["gpt-5.5","gpt-5.4"],"composer-auto-context-enabled":true,"prompt-history":{"global":["那請幫我測試看看下載三個圖片","Invoke-RestMethod
   : {\"detail\":{\"error\":\"Unauthorized: missing or invalid API key.\"}}\r\n位於
   C:\\Users\\chunchun\\Documents\\同洵\\tunghsun_website\\scripts\\fetch-product-images.ps1:149
   字元:17\r\n+ ... $response = Invoke-RestMethod -Uri
@@ -21,9 +13,24 @@ openai.chatgpt: '{"viewed2025-09-15-nux":true,"viewed2025-09-15-full-chatgpt-aut
   腳本，看起來都顯示找不到商品頁，請幫我診斷並修復他","好的，我用線上版本的chatgpt生成了
   [product_image_downloader.py](product_image_downloader.py)
   腳本，看起來都顯示找不到商品頁，請幫我診斷並修復他","我看了images裡面的圖片都是毫無相關的","那直接換個搜尋方法，用最佳但不必付費用的搜尋方法","[base.html.twig](public_html/user/themes/deliver/templates/partials/base.html.twig)
-  我想要更改我網站的logo"],"latest-model-seen":null,"codexCloudAccess":"enabled_needs_setup","last-used-continue-in-mode":"local"}}'
-streetsidesoftware.code-spell-checker: '{"showDecorations":true}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":false,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.codexViewContainer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.github-pull-requests","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.cspell-info-explorer","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.github-pull-request","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.cspell-regexp-explorer","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.tinymist-activitybar","pinned":true,"visible":false,"order":8}]'
+  我想要更改我網站的logo","[規章2.typ](規章2.typ)
+  \n我正在使用typst寫法律條文的文件，但我始終弄不出想要的格式\n我需要以下格式\n第X條\n  （空2格）法律文字\n  （空2格）法律文字","你的這個寫法我試過了，但是我要怎麼在同一條的文字裡進行換行？","測試過了沒辦法使用\\進行換行，他在preview中看起來只是新增了全新的一行字","請在更改一次","can
+  only be used when context is known\nHint: try wrapping this in a `context`
+  expression\nHint: the `context` expression should wrap everything that depends
+  on this function","那麼我需要讓 [規章2.typ](規章2.typ)
+  中的章條數字都用中文小寫的","現在從preview看到數字是從零開始的，需要從一開始","幫我把目前手打的「第二條、第三條…」全部轉成
+  #article[...]","我想把一大串的文件規則放到一個檔案中，然後在其他檔案引入，這樣就不用每個文件都複製一樣的規則，但我目前的設定方法好像沒有用，請幫我找到方法達成\n目前嘗試的檔案:
+  [style.typ](style.typ) [學生議會職權行使法.typ](02_學生議會職權行使法/學生議會職權行使法.typ) ","有可能將
+  [章程草案.typ](00_組織章程/章程草案.typ) 中的所有#article，依序覆蓋到
+  [章程修法對照表.typ](00_組織章程/章程修法對照表.typ)
+  中的表格第一欄嗎？\n","#article()[\r\n  #para()[預算依其類別，分為下列種類：]\r\n  #subpara()[一、總預算，指本會各機關於單一預算期間，就其收入與支出，及前一預算期間決算賸餘之移用，所編列者。]\r\n  #subpara()[二、追加預算，指本會各機關於總預算生效後，認有其需要或遇緊急必要之支出時，所編列者。]\r\n  #subpara[三、獨立預算，指本會各機關於總預算案尚未通過之期間，遇有緊急或必要之支出時，所編列者。]\r\n]\n#article()[\r\n  #para[本法所稱之收入，為單一預算期間之一切收入，但不包括前一預算期間決算賸餘之移用。]\r\n  #para[本法所稱之支出，為單一預算期間之一切支出。]\r\n]\n請參考上列code，將
+  [預算法.typ](04_預算法/預算法.typ)
+  中的所有條文修改成上列的格式"],"019e6de8-9647-7a40-9d73-db4066331c33":["那請幫我將
+  [章程草案.typ](00_組織章程/章程草案.typ) [法規標準法.typ](01_法規標準法/法規標準法.typ)
+  [學生議會職權行使法.typ](02_學生議會職權行使法/學生議會職權行使法.typ) [選舉罷免法.typ](03_選舉罷免法/選舉罷免法.typ)
+  都改成上面的格式","任務完美，但「這台環境仍找不到 typst
+  指令」，我可以怎麼幫你修正","C:\\Users\\chunchun\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe\\typst-x86_64-pc-windows-msvc\\typst.exe","請做"]},"latest-model-seen":null,"codexCloudAccess":"enabled_needs_setup","last-used-continue-in-mode":"local","preferred-non-full-access-agent-mode-by-host-id":{"local":"guardian-approvals"},"heartbeat-thread-permissions-by-id":{"019e6de8-9647-7a40-9d73-db4066331c33":{"approvalPolicy":"on-request","approvalsReviewer":"guardian_subagent","sandboxPolicy":{"type":"workspaceWrite","writableRoots":["c:\\Users\\chunchun\\Documents\\ntua_statutes"],"excludeSlashTmp":false,"excludeTmpdirEnvVar":false,"networkAccess":false}}}}}'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":false,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":false,"visible":false,"order":7},{"id":"workbench.view.extension.codexViewContainer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.github-pull-requests","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.github-pull-request","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.tinymist-activitybar","pinned":true,"visible":false,"order":8}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"檔案總管\",\"isBuiltin\"\
   :true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"npm:\
@@ -116,41 +123,26 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"參考\
   \",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\"}]},{\
   \"id\":\"workbench.view.extension.codexViewContainer\",\"iconUrl\":{\"$mid\":\
-  1,\"path\":\"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.429.30905-win32-x64/re\
+  1,\"path\":\"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.519.32039-win32-x64/re\
   sources/blossom-white.svg\",\"scheme\":\"file\"},\"name\":\"Codex\",\"isBuilt\
-  in\":false,\"views\":[{\"when\":\"chatgpt.doesNotSupportSecondarySidebar\"}]}\
-  ,{\"id\":\"workbench.view.extension.github-pull-requests\",\"name\":\"GitHub\
-  \",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.cspell-info-explor\
-  er\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/streetsidesof\
-  tware.code-spell-checker-4.5.6-universal/resources/dark/check_circle.svg\",\"\
-  scheme\":\"file\"},\"name\":\"Spell Checker
-  Info\",\"isBuiltin\":false,\"views\":[{\"when\":\"cSpell.context.displayCSpel\
-  lInfo\"}]},{\"id\":\"workbench.view.extension.github-pull-request\",\"name\":\
-  \"GitHub Pull
-  Request\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.cspell-rege\
-  xp-explorer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/stre\
-  etsidesoftware.code-spell-checker-4.5.6-universal/resources/dark/check_circle\
-  .svg\",\"scheme\":\"file\"},\"name\":\"Regular
-  Expressions\",\"isBuiltin\":false,\"views\":[{\"when\":\"config.cSpell.experi\
-  mental.enableRegexpView\"}]},{\"id\":\"workbench.view.extension.tinymist-acti\
-  vitybar\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/myriad-d\
-  reamin.tinymist-0.14.18-win32-x64/icons/ti.png\",\"scheme\":\"file\"},\"name\
-  \":\"Tinymist\",\"isBuiltin\":false,\"views\":[{\"when\":\"ext.tinymistActiva\
-  ted\"},{\"when\":\"ext.tinymistActivated &&
-  ext.tinymistDevKit\"},{\"when\":\"ext.tinymistActivated\"},{\"when\":\"ext.ti\
-  nymistActivated\"},{\"when\":\"ext.tinymistActivated\"},{\"when\":\"ext.tinym\
-  istActivated\"},{\"when\":\"ext.tinymistActivated\"}]}]"
+  in\":false,\"views\":[]},{\"id\":\"workbench.view.extension.github-pull-reque\
+  sts\",\"name\":\"GitHub\",\"isBuiltin\":false},{\"id\":\"workbench.view.exten\
+  sion.github-pull-request\",\"name\":\"GitHub Pull
+  Request\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.tinymist-ac\
+  tivitybar\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/myriad\
+  -dreamin.tinymist-0.14.18-win32-x64/icons/ti.png\",\"scheme\":\"file\"},\"name\
+  \":\"Tinymist\",\"isBuiltin\":false,\"views\":[]}]"
 workbench.activityBar.location: default
-workbench.auxiliaryBar.empty: "false"
+workbench.auxiliaryBar.empty: "true"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.codexSecondaryViewContainer","pinned":true,"visible":false,"order":101}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"聊天","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
   || chatPanelParticipantRegistered || !chatSetupDisabledInWorkspace &&
   !chatSetupHidden &&
-  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.codexSecondaryViewContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.429.30905-win32-x64/resources/blossom-white.svg","scheme":"file"},"name":"Codex","isBuiltin":false,"views":[{"when":"!chatgpt.doesNotSupportSecondarySidebar"}]}]'
+  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.codexSecondaryViewContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.519.32039-win32-x64/resources/blossom-white.svg","scheme":"file"},"name":"Codex","isBuiltin":false,"views":[]}]'
 workbench.auxiliaryBar.size: "459"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["jsonc",true],["bat",true],["powershell",true],["python",true],["json",true],["shellscript",true],["css",true],["yaml",true],["markdown",true],["scss",true],["plaintext",true],["typst",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false}]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["shellscript",true],["css",true],["markdown",true],["scss",true],["yaml",true],["git-commit",true],["jsonc",true],["ignore",true],["python",true],["typst",true],["plaintext",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"cSpellInfoView","isHidden":false},{"id":"cSpellRegExpView","isHidden":false},{"id":"cSpellIssuesViewByFile","isHidden":false},{"id":"cSpellIssuesViewByIssue","isHidden":false}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
@@ -158,9 +150,8 @@ workbench.panel.lastNonMaximizedHeight: "300"
 workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
-workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"workbench.view.extension.cspellPanel","pinned":true,"visible":false,"order":6},{"id":"refactorPreview","pinned":true,"visible":false}]'
-workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"問題","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"輸出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"偵錯主控台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"終端機","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"測試結果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"連接埠","isBuiltin":true,"views":[{}]},{"id":"workbench.view.extension.cspellPanel","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/streetsidesoftware.code-spell-checker-4.5.6-universal/resources/dark/check_circle.svg","scheme":"file"},"name":"Spell
-  Checker","isBuiltin":false,"views":[{},{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"重構預覽","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
+workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"refactorPreview","pinned":true,"visible":false}]'
+workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"問題","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"輸出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"偵錯主控台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"終端機","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"測試結果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"連接埠","isBuiltin":true,"views":[{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"重構預覽","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "266"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":false},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
@@ -170,10 +161,11 @@ workbench.view.extension.codexSecondaryViewContainer.state.hidden: '[{"id":"chat
 workbench.view.extension.cspellPanel.state.hidden: '[{"id":"cSpellIssuesViewByFile","isHidden":false},{"id":"cSpellIssuesViewByIssue","isHidden":false}]'
 workbench.view.extension.github-pull-request.state.hidden: '[{"id":"github:createPullRequestWebview","isHidden":false},{"id":"github:compareChangesFiles","isHidden":false},{"id":"github:compareChangesCommits","isHidden":false},{"id":"prStatus:github","isHidden":false},{"id":"github:activePullRequest","isHidden":false},{"id":"github:activePullRequest:welcome","isHidden":false}]'
 workbench.view.extension.github-pull-requests.state.hidden: '[{"id":"github:login","isHidden":false},{"id":"pr:github","isHidden":false},{"id":"issues:github","isHidden":false},{"id":"notifications:github","isHidden":false},{"id":"github:conflictResolution","isHidden":false}]'
+workbench.view.extension.references-view.state.hidden: '[{"id":"references-view.tree","isHidden":false}]'
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"workbench.view.testCoverage","isHidden":false}]'
 workbench.view.extension.tinymist-activitybar.state.hidden: '[{"id":"tinymist.side-symbol-view","isHidden":false},{"id":"tinymist.dev-kit","isHidden":false},{"id":"tinymist.tool-view","isHidden":false},{"id":"tinymist.package-view","isHidden":false},{"id":"tinymist.preview.content-preview","isHidden":false},{"id":"tinymist.label-view","isHidden":false},{"id":"tinymist.preview.outline","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.agentPlugins.installed","isHidden":false},{"id":"workbench.views.agentPlugins.default.marketplace","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.extensions.restartRequired","isHidden":false},{"id":"workbench.views.agentPlugins.marketplace","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "12"
+workbench.views.extensions.installed.size: "11"
 workbench.welcomePage.hiddenCategories: '["Beginner","Setup"]'
 zokugun.cron-tasks: '{"version":"0.2.1"}'
