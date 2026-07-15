@@ -30,7 +30,7 @@ openai.chatgpt: '{"viewed2025-09-15-nux":true,"viewed2025-09-15-full-chatgpt-aut
   [學生議會職權行使法.typ](02_學生議會職權行使法/學生議會職權行使法.typ) [選舉罷免法.typ](03_選舉罷免法/選舉罷免法.typ)
   都改成上面的格式","任務完美，但「這台環境仍找不到 typst
   指令」，我可以怎麼幫你修正","C:\\Users\\chunchun\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Typst.Typst_Microsoft.Winget.Source_8wekyb3d8bbwe\\typst-x86_64-pc-windows-msvc\\typst.exe","請做"]},"latest-model-seen":null,"codexCloudAccess":"enabled_needs_setup","last-used-continue-in-mode":"local","preferred-non-full-access-agent-mode-by-host-id":{"local":"guardian-approvals"},"heartbeat-thread-permissions-by-id":{"019e6de8-9647-7a40-9d73-db4066331c33":{"approvalPolicy":"on-request","approvalsReviewer":"guardian_subagent","sandboxPolicy":{"type":"workspaceWrite","writableRoots":["c:\\Users\\chunchun\\Documents\\ntua_statutes"],"excludeSlashTmp":false,"excludeTmpdirEnvVar":false,"networkAccess":false}}}}}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":false,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":false,"visible":false,"order":7},{"id":"workbench.view.extension.codexViewContainer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.github-pull-requests","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.github-pull-request","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.tinymist-activitybar","pinned":true,"visible":false,"order":8}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":false,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":false,"visible":false,"order":7},{"id":"workbench.view.extension.codexViewContainer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.github-pull-requests","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.github-pull-request","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.tinymist-activitybar","pinned":true,"visible":false,"order":8},{"id":"workbench.view.voiceTranscriptsContainer","pinned":true,"visible":false,"order":10}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"檔案總管\",\"isBuiltin\"\
   :true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"npm:\
@@ -123,25 +123,35 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"參考\
   \",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\"}]},{\
   \"id\":\"workbench.view.extension.codexViewContainer\",\"iconUrl\":{\"$mid\":\
-  1,\"path\":\"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.519.32039-win32-x64/re\
-  sources/blossom-white.svg\",\"scheme\":\"file\"},\"name\":\"Codex\",\"isBuilt\
-  in\":false,\"views\":[]},{\"id\":\"workbench.view.extension.github-pull-reque\
-  sts\",\"name\":\"GitHub\",\"isBuiltin\":false},{\"id\":\"workbench.view.exten\
-  sion.github-pull-request\",\"name\":\"GitHub Pull
+  1,\"path\":\"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.623.141536-linux-x64/r\
+  esources/blossom-white.svg\",\"scheme\":\"file\"},\"name\":\"Codex\",\"isBuil\
+  tin\":false,\"views\":[{\"when\":\"chatgpt.doesNotSupportSecondarySidebar\"}]\
+  },{\"id\":\"workbench.view.extension.github-pull-requests\",\"name\":\"GitHub\
+  \",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.github-pull-request\
+  \",\"name\":\"GitHub Pull
   Request\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.tinymist-ac\
   tivitybar\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/myriad\
-  -dreamin.tinymist-0.14.18-win32-x64/icons/ti.png\",\"scheme\":\"file\"},\"name\
-  \":\"Tinymist\",\"isBuiltin\":false,\"views\":[]}]"
+  -dreamin.tinymist-0.15.2-linux-x64/icons/ti.png\",\"scheme\":\"file\"},\"name\
+  \":\"Tinymist\",\"isBuiltin\":false,\"views\":[{\"when\":\"ext.tinymistActiva\
+  ted\"},{\"when\":\"ext.tinymistActivated &&
+  ext.tinymistDevKit\"},{\"when\":\"ext.tinymistActivated\"},{\"when\":\"ext.ti\
+  nymistActivated\"},{\"when\":\"ext.tinymistActivated\"},{\"when\":\"ext.tinym\
+  istActivated\"},{\"when\":\"ext.tinymistActivated\"}]},{\"id\":\"workbench.vi\
+  ew.voiceTranscriptsContainer\",\"themeIcon\":{\"id\":\"voice-transcripts-view\
+  -icon\"},\"name\":\"Voice
+  Transcripts\",\"isBuiltin\":true,\"views\":[{\"when\":\"voiceTranscripts.show\
+  View\"}]}]"
 workbench.activityBar.location: default
-workbench.auxiliaryBar.empty: "true"
+workbench.auxiliaryBar.empty: "false"
 workbench.auxiliaryBar.lastNonMaximizedSize: "300"
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.codexSecondaryViewContainer","pinned":true,"visible":false,"order":101}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"聊天","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
-  || chatPanelParticipantRegistered || !chatSetupDisabledInWorkspace &&
-  !chatSetupHidden &&
-  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.codexSecondaryViewContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.519.32039-win32-x64/resources/blossom-white.svg","scheme":"file"},"name":"Codex","isBuiltin":false,"views":[]}]'
+  && !chatAccountPolicyGateActive || chatPanelParticipantRegistered &&
+  !chatAccountPolicyGateActive || !chatAccountPolicyGateActive &&
+  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
+  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.codexSecondaryViewContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.623.141536-linux-x64/resources/blossom-white.svg","scheme":"file"},"name":"Codex","isBuiltin":false,"views":[{"when":"!chatgpt.doesNotSupportSecondarySidebar"}]}]'
 workbench.auxiliaryBar.size: "459"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["json",true],["shellscript",true],["css",true],["markdown",true],["scss",true],["yaml",true],["git-commit",true],["jsonc",true],["ignore",true],["python",true],["typst",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["css",true],["markdown",true],["scss",true],["yaml",true],["git-commit",true],["ignore",true],["python",true],["shellscript",true],["plaintext",true],["jsonc",true],["json",true],["typst",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"cSpellInfoView","isHidden":false},{"id":"cSpellRegExpView","isHidden":false},{"id":"cSpellIssuesViewByFile","isHidden":false},{"id":"cSpellIssuesViewByIssue","isHidden":false}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
@@ -151,7 +161,7 @@ workbench.panel.lastNonMaximizedWidth: "300"
 workbench.panel.markers.hidden: '[{"id":"workbench.panel.markers.view","isHidden":false}]'
 workbench.panel.output.hidden: '[{"id":"workbench.panel.output","isHidden":false}]'
 workbench.panel.pinnedPanels: '[{"id":"workbench.panel.markers","pinned":true,"visible":false,"order":0},{"id":"workbench.panel.output","pinned":true,"visible":false,"order":1},{"id":"workbench.panel.repl","pinned":true,"visible":false,"order":2},{"id":"terminal","pinned":true,"visible":false,"order":3},{"id":"workbench.panel.testResults","pinned":true,"visible":false,"order":3},{"id":"~remote.forwardedPortsContainer","pinned":true,"visible":false,"order":5},{"id":"refactorPreview","pinned":true,"visible":false}]'
-workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"問題","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"輸出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"偵錯主控台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"終端機","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"測試結果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"連接埠","isBuiltin":true,"views":[{}]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"重構預覽","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
+workbench.panel.placeholderPanels: '[{"id":"workbench.panel.markers","themeIcon":{"id":"markers-view-icon"},"name":"問題","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.output","themeIcon":{"id":"output-view-icon"},"name":"輸出","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.repl","themeIcon":{"id":"debug-console-view-icon"},"name":"偵錯主控台","isBuiltin":true,"views":[{"when":"debuggersAvailable"}]},{"id":"terminal","themeIcon":{"id":"terminal-view-icon"},"name":"終端機","isBuiltin":true,"views":[{}]},{"id":"workbench.panel.testResults","themeIcon":{"id":"test-results-icon"},"name":"測試結果","isBuiltin":true,"views":[{"when":"testing.hasAnyResults"}]},{"id":"~remote.forwardedPortsContainer","themeIcon":{"id":"ports-view-icon"},"name":"連接埠","isBuiltin":true,"views":[]},{"id":"refactorPreview","themeIcon":{"id":"refactor-preview-view-icon"},"name":"重構預覽","isBuiltin":true,"views":[{"when":"refactorPreview.enabled"}]}]'
 workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":false}]'
 workbench.panel.size: "266"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":false},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false}]'
