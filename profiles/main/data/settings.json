@@ -37,4 +37,6 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "window.zoomLevel": 1,
   "files.autoSave": "afterDelay",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.wordWrap": "on",
 }

@@ -18,7 +18,5 @@ enabled:
     uuid: e15002cc-f2ff-4c29-b86a-7504683a0369
   - id: openai.chatgpt
     uuid: 90b52117-6fd1-4f1c-9e14-256bd6e21d79
-  - id: sst-dev.opencode
-    uuid: 90e5fe3f-5625-4338-82e4-0ca57e7d0af9
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

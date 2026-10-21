@@ -1,4 +1,4 @@
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":false,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":false,"visible":false,"order":7},{"id":"workbench.view.extension.codexViewContainer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.github-pull-requests","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.github-pull-request","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.tinymist-activitybar","pinned":true,"visible":false,"order":8},{"id":"workbench.view.voiceTranscriptsContainer","pinned":true,"visible":false,"order":10}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.tinymist-activitybar","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.codexViewContainer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.voiceTranscriptsContainer","pinned":true,"visible":false,"order":10}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"檔案總管\",\"isBuiltin\"\
   :true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"npm:\
@@ -26,101 +26,40 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   ew.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"name\":\"遠\
   端總管\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.extensions\",\
   \"themeIcon\":{\"id\":\"extensions-view-icon\"},\"name\":\"延伸模組\",\"isBuiltin\
-  \":true,\"views\":[{\"when\":\"defaultExtensionViews &&
-  extensionsGalleryStatus == 'accessDenied' || defaultExtensionViews &&
-  extensionsGalleryStatus == 'requiresSignIn' || searchMarketplaceExtensions &&
-  extensionsGalleryStatus == 'accessDenied' || searchMarketplaceExtensions &&
-  extensionsGalleryStatus ==
-  'requiresSignIn'\"},{\"when\":\"defaultExtensionViews\"},{\"when\":\"searchEx\
-  tensionUpdates ||
-  searchOutdatedExtensions\"},{\"when\":\"recommendedExtensions &&
-  workbenchState != 'empty'\"},{\"when\":\"defaultExtensionViews && hasGallery
-  && !hasInstalledExtensions\"},{\"when\":\"searchExtensionUpdates ||
-  searchRecentlyUpdatedExtensions\"},{\"when\":\"recommendedExtensions\"},{\"wh\
-  en\":\"defaultExtensionViews && hasGallery &&
-  !config.extensions.showRecommendationsOnlyOnDemand &&
-  !sortByUpdateDate\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures\"},{\"when\":\"config.chat.mcp.gallery.enabled
-  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
-  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' || config.chat.mcp.gallery.serviceUrl
-  && defaultExtensionViews && !chatSetupDisabledInWorkspace && !chatSetupHidden
-  && !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' || defaultExtensionViews &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && !hasInstalledMcpServers &&
-  mcpServersGalleryStatus == 'available' && productQualityType !=
-  'stable'\"},{\"when\":\"defaultExtensionViews && !chatSetupDisabledInWorkspace
-  && !chatSetupHidden && !config.chat.disableAIFeatures &&
-  !config.chat.mcp.gallery.enabled && !config.chat.mcp.gallery.serviceUrl &&
-  !hasInstalledMcpServers && mcpServersGalleryStatus == 'available' &&
-  productQualityType == 'stable'\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledExtensions\"},{\"when\":\"defaultExtensionViews &&
-  hasInstalledAgentPlugins &&
-  !chatSetupHidden\"},{\"when\":\"defaultExtensionViews && !chatSetupHidden &&
-  !hasInstalledAgentPlugins\"},{\"when\":\"hasGallery &&
-  searchMarketplaceExtensions\"},{\"when\":\"installedExtensions ||
-  searchInstalledExtensions\"},{\"when\":\"searchEnabledExtensions\"},{\"when\":\
-  \"searchDisabledExtensions\"},{\"when\":\"searchBuiltInExtensions\"},{\"when\
-  \":\"searchWorkspaceUnsupportedExtensions\"},{\"when\":\"builtInExtensions\"}\
-  ,{\"when\":\"builtInExtensions\"},{\"when\":\"builtInExtensions\"},{\"when\":\
-  \"searchUnsupportedWorkspaceExtensions\"},{\"when\":\"searchUnsupportedWorksp\
-  aceExtensions\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchUnsupportedWorkspaceExtensions &&
-  virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"},{\"when\":\"sea\
-  rchRestartRequiredExtensions\"},{\"when\":\"searchAgentPlugins &&
-  !chatSetupHidden\"},{\"when\":\"config.chat.mcp.gallery.enabled &&
-  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
-  config.chat.mcp.gallery.serviceUrl && searchMcpServers &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' ||
-  searchMcpServers && !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && mcpServersGalleryStatus == 'available' &&
-  productQualityType != 'stable'\"},{\"when\":\"searchMcpServers &&
-  !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures && !config.chat.mcp.gallery.enabled &&
-  !config.chat.mcp.gallery.serviceUrl && mcpServersGalleryStatus == 'available'
-  && productQualityType ==
-  'stable'\"}]},{\"id\":\"workbench.view.extension.test\",\"themeIcon\":{\"id\":\
-  \"test-view-icon\"},\"name\":\"測試\",\"isBuiltin\":true,\"views\":[{\"when\":\
-  \"testing.providerCount >
+  \":true,\"views\":[]},{\"id\":\"workbench.view.extension.test\",\"themeIcon\"\
+  :{\"id\":\"test-view-icon\"},\"name\":\"測試\",\"isBuiltin\":true,\"views\":[{\
+  \"when\":\"testing.providerCount >
   0\"},{\"when\":\"testing.isTestCoverageOpen\"}]},{\"id\":\"workbench.view.ext\
   ension.references-view\",\"themeIcon\":{\"id\":\"references\"},\"name\":\"參考\
   \",\"isBuiltin\":false,\"views\":[{\"when\":\"reference-list.isActive\"}]},{\
-  \"id\":\"workbench.view.extension.codexViewContainer\",\"iconUrl\":{\"$mid\":\
-  1,\"path\":\"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.901.22334-linux-x64/re\
-  sources/blossom-white.svg\",\"scheme\":\"file\"},\"name\":\"Codex\",\"isBuilt\
-  in\":false,\"views\":[{\"when\":\"chatgpt.doesNotSupportSecondarySidebar\"}]}\
-  ,{\"id\":\"workbench.view.extension.github-pull-requests\",\"name\":\"GitHub\
-  \",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.github-pull-request\
-  \",\"name\":\"GitHub Pull
-  Request\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.tinymist-ac\
-  tivitybar\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/myriad\
-  -dreamin.tinymist-0.15.2-linux-x64/icons/ti.png\",\"scheme\":\"file\"},\"name\
-  \":\"Tinymist\",\"isBuiltin\":false,\"views\":[{\"when\":\"ext.tinymistActiva\
-  ted\"},{\"when\":\"ext.tinymistActivated &&
+  \"id\":\"workbench.view.extension.tinymist-activitybar\",\"iconUrl\":{\"$mid\
+  \":1,\"path\":\"%%EXTENSION_DATA_PATH%%/myriad-dreamin.tinymist-0.15.10-win32\
+  -x64/icons/ti.png\",\"scheme\":\"file\"},\"name\":\"Tinymist\",\"isBuiltin\":\
+  false,\"views\":[{\"when\":\"ext.tinymistActivated\"},{\"when\":\"ext.tinymis\
+  tActivated &&
   ext.tinymistDevKit\"},{\"when\":\"ext.tinymistActivated\"},{\"when\":\"ext.ti\
   nymistActivated\"},{\"when\":\"ext.tinymistActivated\"},{\"when\":\"ext.tinym\
   istActivated\"},{\"when\":\"ext.tinymistActivated\"}]},{\"id\":\"workbench.vi\
-  ew.voiceTranscriptsContainer\",\"themeIcon\":{\"id\":\"voice-transcripts-view\
-  -icon\"},\"name\":\"Voice
+  ew.extension.codexViewContainer\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENS\
+  ION_DATA_PATH%%/openai.chatgpt-26.721.30844-win32-x64/resources/blossom-white\
+  .svg\",\"scheme\":\"file\"},\"name\":\"Codex\",\"isBuiltin\":false,\"views\":\
+  [{\"when\":\"chatgpt.doesNotSupportSecondarySidebar\"}]},{\"id\":\"workbench.\
+  view.voiceTranscriptsContainer\",\"themeIcon\":{\"id\":\"voice-transcripts-vi\
+  ew-icon\"},\"name\":\"Voice
   Transcripts\",\"isBuiltin\":true,\"views\":[{\"when\":\"voiceTranscripts.show\
   View\"}]}]"
 workbench.activityBar.location: default
 workbench.auxiliaryBar.empty: "false"
-workbench.auxiliaryBar.lastNonMaximizedSize: "434"
+workbench.auxiliaryBar.lastNonMaximizedSize: "300"
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":1},{"id":"workbench.view.extension.codexSecondaryViewContainer","pinned":true,"visible":false,"order":101}]'
 workbench.auxiliarybar.placeholderPanels: '[{"id":"workbench.panel.chat","themeIcon":{"id":"chat-view-icon"},"name":"聊天","isBuiltin":true,"views":[{"when":"chatExtensionInvalid
   && !chatAccountPolicyGateActive || chatPanelParticipantRegistered &&
   !chatAccountPolicyGateActive || !chatAccountPolicyGateActive &&
   !chatSetupDisabledInWorkspace && !chatSetupHidden &&
-  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.codexSecondaryViewContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.901.22334-linux-x64/resources/blossom-white.svg","scheme":"file"},"name":"Codex","isBuiltin":false,"views":[{"when":"!chatgpt.doesNotSupportSecondarySidebar"}]}]'
-workbench.auxiliaryBar.size: "459"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["ignore",true],["jsonc",true],["json",true],["powershell",true],["python",true],["git-commit",true],["properties",true],["shellscript",true],["yaml",true],["plaintext",true],["markdown",true],["typst",true]]'
-workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"cSpellInfoView","isHidden":false},{"id":"cSpellRegExpView","isHidden":false},{"id":"cSpellIssuesViewByFile","isHidden":false},{"id":"cSpellIssuesViewByIssue","isHidden":false}]'
+  !config.chat.disableAIFeatures"}]},{"id":"workbench.view.extension.codexSecondaryViewContainer","iconUrl":{"$mid":1,"path":"%%EXTENSION_DATA_PATH%%/openai.chatgpt-26.721.30844-win32-x64/resources/blossom-white.svg","scheme":"file"},"name":"Codex","isBuiltin":false,"views":[{"when":"!chatgpt.doesNotSupportSecondarySidebar"}]}]'
+workbench.auxiliaryBar.size: "300"
+workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["plaintext",true],["typst",true]]'
+workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true}]'
 workbench.newDefaultThemeNotification: "true"
 workbench.panel.alignment: center
 workbench.panel.chat.hidden: '[{"id":"workbench.panel.chat.view.copilot","isHidden":false}]'
@@ -136,14 +75,10 @@ workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden
 workbench.sideBar.size: "300"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false}]'
 workbench.view.extension.codexSecondaryViewContainer.state.hidden: '[{"id":"chatgpt.sidebarSecondaryView","isHidden":false}]'
-workbench.view.extension.cspellPanel.state.hidden: '[{"id":"cSpellIssuesViewByFile","isHidden":false},{"id":"cSpellIssuesViewByIssue","isHidden":false}]'
-workbench.view.extension.github-pull-request.state.hidden: '[{"id":"github:createPullRequestWebview","isHidden":false},{"id":"github:compareChangesFiles","isHidden":false},{"id":"github:compareChangesCommits","isHidden":false},{"id":"prStatus:github","isHidden":false},{"id":"github:activePullRequest","isHidden":false},{"id":"github:activePullRequest:welcome","isHidden":false}]'
-workbench.view.extension.github-pull-requests.state.hidden: '[{"id":"github:login","isHidden":false},{"id":"pr:github","isHidden":false},{"id":"issues:github","isHidden":false},{"id":"notifications:github","isHidden":false},{"id":"github:conflictResolution","isHidden":false}]'
-workbench.view.extension.references-view.state.hidden: '[{"id":"references-view.tree","isHidden":false}]'
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false},{"id":"workbench.view.testCoverage","isHidden":false}]'
 workbench.view.extension.tinymist-activitybar.state.hidden: '[{"id":"tinymist.side-symbol-view","isHidden":false},{"id":"tinymist.dev-kit","isHidden":false},{"id":"tinymist.tool-view","isHidden":false},{"id":"tinymist.package-view","isHidden":false},{"id":"tinymist.preview.content-preview","isHidden":false},{"id":"tinymist.label-view","isHidden":false},{"id":"tinymist.preview.outline","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.marketplaceAccess","isHidden":false},{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.mcp.installed","isHidden":false},{"id":"workbench.views.mcp.default.marketplace","isHidden":false},{"id":"workbench.views.mcp.default.welcomeView","isHidden":false},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.agentPlugins.installed","isHidden":false},{"id":"workbench.views.agentPlugins.default.marketplace","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.extensions.restartRequired","isHidden":false},{"id":"workbench.views.agentPlugins.marketplace","isHidden":false},{"id":"workbench.views.mcp.marketplace","isHidden":false},{"id":"workbench.views.mcp.welcomeView","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
-workbench.views.extensions.installed.size: "12"
-workbench.welcomePage.hiddenCategories: '["Beginner","Setup"]'
+workbench.views.extensions.installed.size: "11"
+workbench.welcomePage.hiddenCategories: '["Setup"]'
 zokugun.cron-tasks: '{"version":"0.2.1"}'
